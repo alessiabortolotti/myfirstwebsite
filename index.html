@@ -1,15 +1,80 @@
 <!doctype html>
 <html>
-  <head>
-    <title>My first webpage</title>
-    <style>
-      body {margin: 20%; font-family: sans-serif; font-size: 1.5em;}
-      h1 {letter-spacing: 0.05em;}
-      p {color: grey;}
-    </style>
-  </head>
-  <body>
-    <h1>My first webpage</h1>
-    <p>I'm so smart</p>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <title>Bring me the horizon</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap" rel="stylesheet">
+    </head>
+    <body class="bg-image">
+        <header>
+            <!-- da qui inizia la navbar -->
+            <nav class="navbar navbar-expand-lg">
+              <a class="navbar-brand" href="index.html"><img id="logo" src="images/logo.jpg"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">HOME<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="music.html">MUSIC</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="tour.html">TOUR</a>
+                  </li>
+                </ul>
+              </div>
+            <div>
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+              <a href="https://www.instagram.com/bringmethehorizon/?next=%2F" class="fa fa-instagram"></a>
+              <a href="https://twitter.com/bmthofficial" class="fa fa-twitter"></a>
+            </div>
+            </nav>
+            <!--qui finisce la navbar -->
+            <h1>BRING ME THE HORIZON</h1>
+        </header>
+        <main>
+          <p id="firstparagraph" >/ what doesn't kill you, makes you wish you were dead / Remember the moment you left me alone and broke every promise you've ever made. I was an ocean, lost in the open, Nothing could take the pain away / got a hole in my soul growing deeper and deeper / and the weight of the world's getting harder to hold up / i'm scared to get close and i hate being alone / i can't drown my demons they now how to swim / some people are a lot like clouds, you know 'cause life's so much brighter when they go / the higher i get, the lower i'll sink / promise me you'll never left my side /</p>
+          <div id="divbg">
+          <div class="container-fluid">
+          <p id="secondparagraph">&#9660 THE BAND &#9660</p>
+              <div class="row">
+                  <div class="col-sm">
+                      <img id="secondimg" src="images/secondimg.jpg"/>
+                  </div>
+                  <div class="col-sm">
+                      <p id="thirdparagraph">La band nasce nel 2004. Grazie alla passione di due giovanissimi studenti. Stiamo parlando del cantante Oliver Sykes e del batterista Matt Nicholls. I due ragazzi di Sheffield, Regno Unito, decidono così di dare forma ad una band metalcore. Nel loro gruppo, arruolano anche il chitarrista Lee Malia, il bassista Matt Kean e il chitarrista Curtis Ward. Quest’ultimo, nel 2009, avrebbe lasciato la band per fare spazio a Jona Weinhofen, che se ne sarebbe andato a sua volta quattro anni dopo. A partire dal 2013, fa parte del complesso anche il tastierista Jordan Fish. Alle origini, il quintetto aveva un’età compresa tra i 15 e i 17 anni ed era una delle band metal più giovani tra quelle conosciute. </p>
+                  </div>
+             </div>
+         </div>
+         <div class="container-fluid" id="secondcontainer">
+             <div class="row">
+                <div class="col-sm">
+                   <p id="fourthparagraph"> Per quali ragioni i Bring Me The Horizon hanno scelto di utilizzare proprio una denominazione così bizzarra? Lo ha spiegato Matt Kean in occasione di un’intervista rilasciata al sito web Metal Italia. “Il nostro nome è stato preso dal film Pirates Of The Caribbean (La Maledizione della Prima Luna). Per noi non assume alcun significato ben preciso. Ci piaceva semplicemente come suonava, nient’altro”. In pratica, la frase che ha dato il titolo alla band è l’ultima del film con protagonista Johnny Depp. Quest’ultimo, nei panni di Jack Sparrow, ha infatti concluso quel titolo cinematografico esclamando “Now, bring me that horizon”, la cui traduzione in lingua italiana è “Adesso, portami a quell’orizzonte”.</p>   
+                </div>
+                <div class="col-sm">
+                   <img id="secondimg" src="images/band2.jpg"/>
+                </div>
+             </div>
+         </div>
+         </div>
+        </main>
+        <footer>
+          <div id="divbg">
+            <p class="footer">Website designed by Alessia Bortolotti - 2023</p>
+          </div>
+        </footer>
+    </body>
 </html>
